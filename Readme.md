@@ -1,13 +1,13 @@
-# CheckMate: Automated Bank Cheque Processor
+# ChequeMate: Automated Bank Cheque Processor
 
-CheckMate is a streamlined web application built with Streamlit that automates the process of extracting information from bank checks in PDF format. Using Google's Gemini AI, it processes cheque images to extract crucial details like bank name, IFSC code, account numbers, and more.
+ChequeMate is a streamlined web application built with Streamlit that automates the process of extracting information from bank cheques in PDF format. Using Google's Gemini AI, it processes check images to extract crucial details like bank name, IFSC code, account numbers, and more.
 
 ## 🌟 Features
 
 - **PDF Processing**: Extract cheque images from PDF documents
-- **AI-Powered Extraction**: Automatically extract check details using Google's Gemini AI
+- **AI-Powered Extraction**: Automatically extract cheque details using Google's Gemini AI
 - **Secure Authentication**: User registration and login system
-- **Data Management**: Store and manage extracted cheque data
+- **Data Management**: Store and manage extracted check data
 - **Export Capability**: Download processed data in CSV format
 - **User-Friendly Interface**: Clean and intuitive Streamlit interface
 
@@ -21,8 +21,8 @@ CheckMate is a streamlined web application built with Streamlit that automates t
 
 1. Clone the repository:
 ```bash
-git clone url_to_repo
-cd project
+git clone https://github.com/mohannn-sys/ChequeMate.git
+cd ChequeMate
 ```
 
 2. Create and activate a virtual environment:
@@ -77,13 +77,13 @@ streamlit run main.py
      - At least one special character
 
 2. **Processing Checks**
-   - Upload a PDF containing check images
+   - Upload a PDF containing cheque images
    - Click "Process Checks" to extract information
    - View extracted data in the table format
    - Download results as CSV file
 
 3. **Data Management**
-   - View processed check data
+   - View processed cheque data
    - Clear all processed data
    - Export data to CSV format
 
@@ -96,7 +96,7 @@ streamlit run main.py
 
 ## 📊 Extracted Check Information
 
-The application extracts the following details from each check:
+The application extracts the following details from each cheque:
 - Bank name
 - Branch name
 - IFSC code
@@ -124,9 +124,21 @@ The application includes comprehensive error handling for:
 - Invalid user inputs
 - AI processing failures
 
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Create a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## 👨‍💻 Author
 
-**Mohan Kumar Limbu**
+**Mohan Kumar**
 
 ## 🙏 Acknowledgments
 
@@ -134,3 +146,7 @@ The application includes comprehensive error handling for:
 - Streamlit for the web interface
 - MongoDB for data storage
 - PyMuPDF for PDF processing
+
+## 📞 Support
+
+For support or questions, please open an issue in the GitHub repository
