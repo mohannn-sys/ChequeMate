@@ -63,7 +63,16 @@ project/
 streamlit run main.py
 ```
 
-3. Open your browser and navigate to the URL shown in the terminal (typically http://localhost:8501)
+3. Open your browser and navigate to the URL shown in the terminal (typically http://localhost:8501
+
+These are the snapshots of the application
+
+
+![](./Assets/Picture2.png)
+![](./Assets/Picture3.png)
+![](./Assets/Picture4.png)
+![](./Assets/Picture5.png)
+![](./Assets/Picture6.png)
 
 ## 💻 Usage
 
